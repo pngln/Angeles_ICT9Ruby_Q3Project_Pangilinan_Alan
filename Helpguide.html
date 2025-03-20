@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to HotLine Manilla</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightblue; /* Dark blue background */
+            color: white; /* White text */
+        }
+
+        header {
+            background-image: url('train.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0; 
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem; 
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+        }
+
+        h2 {
+            margin-top: 30px;
+            color: #ffffff; 
+        }
+
+        .card {
+            margin-bottom: 20px;
+            background-color: #003366; /* Dark blue for card background */
+            color: white; /* White text inside card */
+            border: none; /* No border for cards */
+        }
+
+        .card-img-top {
+            height: 300px; /* Set a height for images */
+            object-fit: cover; /* shows and makes images cover the area */
+        }
+
+        footer {
+            background-color: #00274d; 
+            color: white;
+            padding: 10px 0;
+        }
+
+        .btn-primary {
+            background-color: #007bff; /* Bootstrap primary color */
+            border: none; /* Remove border */
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3; 
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem; /*
+            }
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Help Guide</h1>
+        <p>Your Help Guide for Hotline Manila!</p>
+    </header>
+   <a href="index.html">HOME</a>
+    <a href="trainguide.html">Hotline Manilla Guide</a>
+    <a href="Helpguide.html">Help Guide</a>
+
+    <section id="contact" class="container mt-5">
+        <h2>Contact Us</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea class="form-control" id="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="text-center mt-5">
+        <p>&copy; 2025 Train Guide.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
